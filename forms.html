@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="https://in.search.yahoo.com/search;_ylt=AwrPhOtJU.NfQCEAQwe7HAx.">
+
+      <input type="text" name="p" placeholder="Search here"> <!--to search on other browser-->
+      <button>YAHOO</button> <!--to create a button-->
+      <br> <br>
+      <label for="haan">NAAM:</label><!--to connect text with the input -->
+      <input type="text" name="username" id="haan" placeholder="Username" required><!--to make things necessary-->
+      <br><br> 
+      <label for="meri">Email:</label> <!-- For and id must be same to connect-->
+      <input type="email" name="email" id="meri" placeholder="Email id"><!--placeholder for text giving hint-->
+      <br><br>
+      <label for="nahi">Password:</label>
+      <input type="password" name="pass" placeholder="Password" id="nahi" minlength="8">
+      <br><br>
+      <label for="teri">Contact No:</label>
+      <input type="number" name="contact" id="teri" maxlength="10"> <!--Doubt-->
+      <br><br>
+      <label for="uski">D.O.B. :</label>
+      <input type="date" name="budday" id="uski">
+      <br><br>
+      <label for="iski">Your Interests:</label>
+      Economics
+      <input type="checkbox" name="interests" id="iski" value="eco"> <!--to specify a value to input-->
+      Astrology
+      <input type="checkbox" name="interests" value="astrology">
+      Politics
+      <input type="checkbox" name="interests" value="math">
+      <br> <br>
+      <input type="radio" name="sex"> MALE <!--all names in radio must be same-->
+      <input type="radio" name="sex"> FEMALE 
+      <input type="radio" name="sex"> OTHER 
+      <br><br> 
+      PATA NAHI KYUN:  
+      <input type="color">
+      <br> <br>
+      <button type="reset">RESET</button> <!-- default type of button is submit-->
+      <button>SUBMIT</button>
+      
+       
+      
+       
+
+
+
+
+
+    </form>
+
+</body>
+</html>
